@@ -1,0 +1,80 @@
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    color: #393939;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    width: 80%; /* Utilizamos porcentaje para adaptar el ancho */
+    max-width: 350px; /* Limitamos el ancho máximo */
+    margin: 25px auto;
+    text-align: center;
+}
+
+.formulario input[type="text"] {
+    width: 100%; /* Utilizamos porcentaje para adaptar el ancho */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario input[type="text"]::placeholder {
+    color: #999;
+}
+
+.formulario input[type="submit"] {
+    width: 100%; /* Utilizamos porcentaje para adaptar el ancho */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#codigo1 {
+    margin-bottom: 70px;
+}
+
+/* Media Query para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: calc(100% - 40px); /* Restamos el espacio de los márgenes */
+        border-radius: 0; /* Eliminamos el borde redondeado */
+    }
+
+    .formulario {
+        width: 90%; /* Utilizamos porcentaje para adaptar el ancho */
+    }
+}
+
+.centrar-imagen {
+    display: block;
+    margin: 0 auto;
+}
+  .informacion-adicional p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333; /* Cambia el color según tus preferencias */
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+
+.informacion-adicional a {
+    color: #131313; /* Color de los enlaces */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+.informacion-adicional a:hover {
+    text-decoration: underline; /* Subraya los enlaces cuando se pasa el mouse sobre ellos */
+}

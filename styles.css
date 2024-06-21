@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.premio {
+    font-size: 32px;
+    font-weight: bold;
+    color: #4CAF50;
+    text-align: center;
+}
+
+.contacto {
+    margin-top: 40px;
+}
+
+.contacto p {
+    margin-bottom: 10px;
+}
+
+.contacto p:last-child {
+    margin-bottom: 0;
+}
+
+.contacto a {
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.contacto a:hover {
+    background-color: #45a049;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .footer-content img {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+    p {
+        text-align: center;
+    }
+    #contenedor {
+        margin-bottom: 0;
+    }
+    .premio {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .premio {
+        text-align: center;
+    }
+}
+
+
+#cantidad {
+    color: rgb(25, 152, 0); /* Cambia el color a azul, puedes usar cualquier color CSS aquí */
+    font-size: 30px;
+}
+            #container {
+text-align: center; /* Centra el contenido horizontalmente */
+}
+
+#cantidad, #premio {
+display: block; /* Convierte los elementos en bloques para ocupar todo el ancho disponible */
+}
+  
+.contenedor {
+    width: 100%; /* o el ancho que desees */
+    text-align: center; /* Alinea el contenido al centro */
+  }
+  
+  .boton-continuar {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    width: 120px;
+    margin: 0 auto; /* Centra horizontalmente */
+  }
+  
+  .boton-continuar:hover {
+    background-color: black;
+  }
+  
+  .centrar-imagen {
+    display: block;
+    margin: 0 auto;
+}
+
